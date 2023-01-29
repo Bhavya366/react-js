@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* above navbar */
+.above-navbar{
+    background:hsl(222, 14%, 10%);;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    height:50px;
+    width:100%;
+    position:fixed;
+}
+
+/* navbar */
+.navbar-section{
+    position:fixed;
+    margin-top: 50px;
+    height:60px;
+    width:100%;
+    background:#20232a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-section li{
+    list-style: none;
+    padding: 0 20px; 
+}
+.navbar-section li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:white;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.name a{
+    font-size: 18px;
+    font-weight: 1000;
+}
+.end-part{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+.end-part a{
+    text-decoration: none;
+    color:white;
+}
+.end-part a:hover{
+    color:skyblue;
+}
+
+/* display part */
+.display-section{
+    background: #282c34;
+    height:400px;
+    width:100%;
+    padding:50px;
+}
+.display-section h1{
+    color:skyblue;
+    margin-top:115px;
+    font-size: 42px;
+    font-weight:800;
+    margin-bottom: 6px;
+}
+.display-section p{
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+
+.display-section button{
+    padding: 9px 9px 9px 6px;
+    line-height: 1.5;
+    width: 125px;
+    background: skyblue;
+    border: 1px skyblue;
+    color:black;  
+}
+.display-section button:hover{
+    background: white;
+}
+.display-section a{
+    margin-left: 25px;
+    margin-right: 7px;
+    color: skyblue;
+    /* margin-top:6%;  */
+}
+.display-section a:hover{
+    color:white;
+}
+.display-section i{
+    color:skyblue;
+}
+/* feature part */
+.feature-section{
+    margin:9% 5% 0% 5%;
+    display: flex;
+}
+
+.feature-one{
+    width:400px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h2{
+   color:rgb(164, 160, 160);
+   margin-bottom:25px ;
+   font-size: 22px;
+   font-family:  Arial, Helvetica, sans-serif;
+   font-weight: 100;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 2;
+}
